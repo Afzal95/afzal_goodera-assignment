@@ -18,6 +18,9 @@ ul{
     display: flex;
     gap: 50px;
 }
+ul>li{
+    cursor: pointer;
+}
 
 .upper-part nav{
     width: 1143px;
