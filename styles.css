@@ -35,6 +35,14 @@ ul>li{
     color: #FFFFFF;
     margin: 40px 125px;
 }
+
+.search{
+    width: 800px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 40px auto 0;
+}
 .lower-part{
     display: grid;
     grid-template-columns: repeat(2, auto);
