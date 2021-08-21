@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: #E5E5E5;
+}
+.upper-part{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+}
+.lower-part{
+
+}
+.lower-div{
+    
+}
