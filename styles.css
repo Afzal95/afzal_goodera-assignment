@@ -22,7 +22,6 @@ body{
     margin-top: 50px;
 }
 .lower-div{
-    border: 2px solid green;
     height: 200px;
     width: 560px;
     left: 737px;
@@ -51,21 +50,29 @@ body{
 
 .lower-details button{
     outline: none;
+    margin: 8px;
     width: 120px;
     height: 40px;
     left: 559px;
     top: 598px;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #F07987;
     border: 2px solid #F07987;
     border-radius: 8px;
     background: #FFFFFF;
+    float: right;
 }
 
-@media only screen and (max-width: 900px) {
+.lower-details h1{
+    font-size: 24px;
+}
+.lower-details p{
+    line-height: 21px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1120px) {
 
     .lower-part{
         display: grid;
