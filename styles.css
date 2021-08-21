@@ -7,10 +7,30 @@
 body{
     background-color: #E5E5E5;
 }
+
+
 .upper-part{
-    width: 100vw;
-    height: 50vh;
+    height: 260px;
     background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+}
+ul{
+    list-style:none;
+    display: flex;
+    gap: 50px;
+}
+
+.upper-part nav{
+    width: 1143px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+.dream-div{
+    color: #FFFFFF;
+    margin: 40px 125px;
 }
 .lower-part{
     display: grid;
